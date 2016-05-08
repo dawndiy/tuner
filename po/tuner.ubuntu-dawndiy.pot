@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-08 14:49+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:10
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:27
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:22
+msgid "About"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:30
+msgid "Credits"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:46
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:47
+msgid "Resources"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:46
+msgid "Bugs"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:47
+msgid "Contact"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:50
+msgid "Developers"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:50
+msgid "Founder"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:53
+msgid "Logo"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:56
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:57
+msgid "Test"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:103
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:10
+#: /home/dawndiy/workspace/ubuntu-touch/build-tuner-Ubuntu_Device4_GCC_armhf_ubuntu_sdk_15_04_vivid-Debug/Tuner/Tuner.desktop.h:1
+msgid "Tuner"
+msgstr ""
+
+#. TRANSLATORS: Tuner version number e.g Version 1.0.0
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:109
+#, qt-format
+msgid "Version %1"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:117
+msgid "A tuner application for Ubuntu Touch."
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:137
+msgid "Released under the terms of the GNU GPL v3"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:147
+#, qt-format
+msgid "Source code available on %1"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:31
+msgid "Record"
+msgstr ""
+
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:38
+msgid "Stop"
+msgstr ""

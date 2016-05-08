@@ -1,0 +1,15 @@
+{
+    "name": "tuner.ubuntu-dawndiy",
+    "description": "description of tuner",
+    "architecture": "@CLICK_ARCH@",
+    "title": "tuner",
+    "hooks": {
+        "Tuner": {
+            "apparmor": "Tuner/Tuner.apparmor",
+            "desktop": "Tuner/Tuner.desktop"
+        }
+    },
+    "version": "0.0.1",
+    "maintainer": "DawnDIY <chenglu1990@gmail.com>",
+    "framework": "ubuntu-sdk-15.04.4"
+}

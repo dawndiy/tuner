@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>ui/HomePage.qml</file>
+        <file>ui/AboutPage.qml</file>
+        <file>component/ListItemHeader.qml</file>
+        <file>component/Dashboard.qml</file>
+        <file>Tuner.png</file>
+        <file>component/TunerHeader.qml</file>
+        <file>component/TunerHeaderButton.qml</file>
+        <file>component/TunerPageSection.qml</file>
+    </qresource>
+</RCC>

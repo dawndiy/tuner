@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Tuner
+Exec=Tuner
+Icon=Tuner/Tuner.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=#FFE4B5
