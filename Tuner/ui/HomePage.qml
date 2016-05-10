@@ -25,21 +25,21 @@ Page {
                         // rootPageStack.push(aboutPage)
                         // rootPageStack.push(Qt.resolvedUrl("AboutPage.qml"))
                     }
-                },
-                Action {
-                    iconName: "media-record"
-                    text: i18n.tr("Record")
-                    onTriggered: {
-                        recorder.record()
-                    }
-                },
-                Action {
-                    iconName: "media-playback-stop"
-                    text: i18n.tr("Stop")
-                    onTriggered: {
-                        recorder.stop()
-                    }
                 }
+//                Action {
+//                    iconName: "media-record"
+//                    text: i18n.tr("Record")
+//                    onTriggered: {
+//                        recorder.record()
+//                    }
+//                },
+//                Action {
+//                    iconName: "media-playback-stop"
+//                    text: i18n.tr("Stop")
+//                    onTriggered: {
+//                        recorder.stop()
+//                    }
+//                }
 
             ]
         }
@@ -58,6 +58,18 @@ Page {
             right: parent.right
         }
         contentHeight: layout.height
+
+        Item {
+            id: tips
+            anchors.fill: parent
+            Label {
+                anchors.centerIn: parent
+                width: parent.width
+                wrapMode: Text.WordWrap
+                text: i18n.tr("Please send your ukulele close to your phone and tuning...")
+                fontSize: "x-large"
+            }
+        }
 
         Column {
             id: layout
@@ -82,6 +94,11 @@ Page {
                         // dashboard.drawSpectrum(frequencyList, amplitudeList)
                     }
                     onFrequencyChanged: {
+
+                        if (tips.visible) {
+                            tips.visible = false;
+                        }
+
                         hertzText.text = Number(frequency).toFixed(2) + " Hz"
 
                         if (frequency < dashboard.hzC - 30) {
@@ -138,7 +155,7 @@ Page {
                             test.text = "A"
                         }
 
-                        console.log("-------", frequency, test.text)
+                        // console.log("-------", frequency, test.text)
                     }
                 }
             }

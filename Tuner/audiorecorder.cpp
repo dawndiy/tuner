@@ -157,7 +157,7 @@ void AudioRecorder::spectrumChanged(const FrequencySpectrum &spectrum)
         }
     }
 
-    if (m > 0.6) {
+    if (m > 0.65) {
         qDebug() << p << m;
 
         //if (second != c_second) {

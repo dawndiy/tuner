@@ -15,7 +15,7 @@ MainView {
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "tuner.ubuntu-dawndiy"
 
-    width: units.gu(100)
+    width: units.gu(50)
     height: units.gu(75)
 
     Recorder {

@@ -9,7 +9,7 @@
             "desktop": "Tuner/Tuner.desktop"
         }
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "maintainer": "DawnDIY <chenglu1990@gmail.com>",
     "framework": "ubuntu-sdk-15.04.4"
 }

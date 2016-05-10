@@ -43,7 +43,7 @@ Page {
 
         function initialize() {
             // Resources
-            creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Bugs"), link: "https://github.com/dawndiy/tuner-ubuntu/issues" })
+            creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Bugs"), link: "https://github.com/dawndiy/tuner/issues" })
             creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Contact"), link: "mailto:chenglu1990@gmail.com" })
 
             // Developers
@@ -100,13 +100,13 @@ Page {
                             textSize: Label.XLarge
                             font.weight: Font.DemiBold
                             horizontalAlignment: Text.AlignHCenter
-                            text: i18n.tr("Tuner")
+                            text: i18n.tr("Tuner BETA")
                         }
                         Label {
                             width: parent.width
                             horizontalAlignment: Text.AlignHCenter
                             // TRANSLATORS: Tuner version number e.g Version 1.0.0
-                            text: i18n.tr("Version %1").arg("0.0.1")
+                            text: i18n.tr("Version %1").arg("0.0.2")
                         }
                     }
 
@@ -114,7 +114,7 @@ Page {
                         width: parent.width
                         wrapMode: Text.WordWrap
                         horizontalAlignment: Text.AlignHCenter
-                        text: i18n.tr("A tuner application for Ubuntu Touch.")
+                        text: i18n.tr("A tuner application for Ubuntu Touch.<br/>Now, this is a <b>BETA</b> version for Ukulele, and we will soon support the guitar. :)")
                     }
 
                     Column {
@@ -144,7 +144,7 @@ Page {
                         textSize: Label.Small
                         horizontalAlignment: Text.AlignHCenter
                         linkColor: UbuntuColors.blue
-                        text: i18n.tr("Source code available on %1").arg("<a href=\"https://github.com/dawndiy/tuner-ubuntu\">Github</a>")
+                        text: i18n.tr("Source code available on %1").arg("<a href=\"https://github.com/dawndiy/tuner\">Github</a>")
                         onLinkActivated: Qt.openUrlExternally(link)
                     }
 

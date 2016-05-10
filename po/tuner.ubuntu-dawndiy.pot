@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-08 14:49+0800\n"
+"POT-Creation-Date: 2016-05-11 00:40+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,9 +58,7 @@ msgid "Test"
 msgstr ""
 
 #: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:103
-#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:10
-#: /home/dawndiy/workspace/ubuntu-touch/build-tuner-Ubuntu_Device4_GCC_armhf_ubuntu_sdk_15_04_vivid-Debug/Tuner/Tuner.desktop.h:1
-msgid "Tuner"
+msgid "Tuner BETA"
 msgstr ""
 
 #. TRANSLATORS: Tuner version number e.g Version 1.0.0
@@ -70,7 +68,9 @@ msgid "Version %1"
 msgstr ""
 
 #: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:117
-msgid "A tuner application for Ubuntu Touch."
+msgid ""
+"A tuner application for Ubuntu Touch.<br/>Now, this is a <b>BETA</b> version "
+"for Ukulele, and we will soon support the guitar. :)"
 msgstr ""
 
 #: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/AboutPage.qml:137
@@ -82,10 +82,11 @@ msgstr ""
 msgid "Source code available on %1"
 msgstr ""
 
-#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:31
-msgid "Record"
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:10
+#: /home/dawndiy/workspace/ubuntu-touch/build-tuner-Ubuntu_Device7_GCC_armhf_ubuntu_sdk_15_04_vivid-Release/Tuner/Tuner.desktop.h:1
+msgid "Tuner"
 msgstr ""
 
-#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:38
-msgid "Stop"
+#: /home/dawndiy/workspace/ubuntu-touch/tuner/Tuner/ui/HomePage.qml:69
+msgid "Please send your ukulele close to your phone and tuning..."
 msgstr ""
